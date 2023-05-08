@@ -10,6 +10,11 @@
 * **Spring Cloud OpenFeign**
 * **Arquitetura de Microsserviços**
 
+# Projeto
+* O projeto simula uma analise de crédito, é analisada a renda e a idade do cliente para definir limites.
+* É possivel cadastrar 3 bandeiras de cartão no sistema: ELO, MASTERCARD e VISA.
+* Não existe limite para renda e nem para o valor do crédito inserido no cadastro do cartão. 
+
 
 # Comandos Docker
 
@@ -56,4 +61,8 @@ Abaixo serão listados os comandos Docker usados para criar os conteiners, devem
 # Collection do Insomnia
 
 * Collection para os principais endpoints via Insomnia. 
-* 
+* Insomnia_projeto_analise_credito.json na pasta raiz do projeto
+### Sequência de requisições sugerida:
+* Clientes: Salvar Cliente > Dados Cliente
+* Cartoes: Salvar > Get Cartões Renda Até
+* Avaliação: Avaliacao Cliente > Solicitacao Emissao Cartao > Situacao Cliente
