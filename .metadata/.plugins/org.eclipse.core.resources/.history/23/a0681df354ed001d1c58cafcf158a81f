@@ -1,0 +1,5 @@
+package br.com.zaniboni.msavaliadorcredito.entities;
+
+public class CartaoAprovado {
+
+}

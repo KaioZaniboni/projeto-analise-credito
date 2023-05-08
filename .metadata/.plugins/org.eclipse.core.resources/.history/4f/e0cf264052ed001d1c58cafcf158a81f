@@ -1,0 +1,5 @@
+package br.com.zaniboni.mscartoes.enums;
+
+public class BandeiraCartao {
+
+}

@@ -1,0 +1,5 @@
+package br.com.zaniboni.msavaliadorcredito.services;
+
+public class AvaliadorCreditoService {
+
+}

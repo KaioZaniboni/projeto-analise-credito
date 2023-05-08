@@ -1,0 +1,5 @@
+package br.com.zaniboni.msclientes.representations;
+
+public class ClienteSaveRequest {
+
+}

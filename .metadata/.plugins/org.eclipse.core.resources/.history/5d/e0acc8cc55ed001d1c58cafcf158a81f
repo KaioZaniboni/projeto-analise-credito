@@ -1,0 +1,5 @@
+package br.com.zaniboni.msavaliadorcredito.repositories;
+
+public class CartoesResourceClient {
+
+}

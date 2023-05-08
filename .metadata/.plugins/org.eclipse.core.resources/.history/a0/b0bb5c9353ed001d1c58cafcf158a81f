@@ -1,0 +1,5 @@
+package br.com.zaniboni.mscartoes.controllers;
+
+public class CartaoController {
+
+}
